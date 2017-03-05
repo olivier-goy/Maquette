@@ -57,22 +57,103 @@
     font-family: Arial black;
     margin-top: -15px;
     letter-spacing: -1px;
+    text-decoration: none;
 }
 
-#liner22 {
+.liner22 {
     font-size: 20px;
-    padding-bottom: 26px;
+    list-style: url(fs/img/star1.jpg);
 }
+
+.liner22>li:hover {
+    list-style: url(fs/img/star2.jpg);
+}
+
+.right-link {
+    color: #FFF;
+    font-family: 'Arial Black', arial;
+    font-size: 20px;
+}
+
+.right-link:hover{
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'Arial Black', arial;
+    font-size: 20px;
+}
+
 
 #liner23 {
     border-top: 4px solid yellow;
 }
 
-#liner24 {
+.liner24 {
     font-size: 15px;
+    padding-top: 10px;
     border-left: 4px solid yellow;
     border-right: 4px solid yellow;
+    height: 186px;
+
 }
+
+
+
+.liner24>div {
+    display: none;
+    padding-left: 10px;
+}
+
+.pop-up {
+
+    padding-bottom: -10px;
+    padding-left: 5px;
+}
+
+.pop-up>a {
+    font-family: 'Arial Black', arial;
+    color: white;
+}
+
+.pop-up>a:hover {
+    font-family: 'Arial Black', arial;
+    color: white;
+    text-decoration: none;
+}
+
+#pop1:hover+#popup-1 {
+    display: block;
+}
+
+#pop2:hover+#popup-2 {
+    display: block;
+}
+
+#pop3:hover+#popup-3 {
+    display: block;
+}
+
+#pop4:hover+#popup-4 {
+    display: block;
+}
+
+#pop5:hover+#popup-5 {
+    display: block;
+}
+
+#pop6:hover+#popup-6 {
+    display: block;
+}
+
+#pop7:hover+#popup-7 {
+    display: block;
+}
+
+#pop8:hover+#popup-8 {
+    display: block;
+}
+
+
+
 
 #fond3 {
     background: url('fs/img/full.jpg') no-repeat top center;
@@ -90,7 +171,6 @@
 
 #liner31 {
     background-color: rgba(255, 255, 255, 0.2);
-    padding-top: 6px;
     padding-left: 8px;
     border-top: 2px solid yellow;
     border-bottom: 2px solid yellow;
@@ -110,7 +190,7 @@
     padding-right: 50px;
 }
 
-#liner34 {
+.liner34 {
     font-family: Arial black;
     font-size: 15px;
     border-left: 4px solid yellow;
@@ -119,6 +199,11 @@
     border-bottom: 4px solid yellow;
     margin-bottom: 38px;
     letter-spacing: -1px;
+}
+
+.liner34>div {
+    display: none;
+    padding-left: 10px;
 }
 
 #liner35 {
